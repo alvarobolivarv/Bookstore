@@ -1,9 +1,24 @@
 # Go bookstore
+CRUD API
 Go learning project from freeCodeCamp.org.
 
-Unfortunately I couldn't resolve the following error:
+
+Project structure:
 ```
-$ go run ./main.go
-# github.com/alvarobolivarv/Bookstore/pkg/models
-../../pkg/models/book.go:19:17: undefined: config.GetDB
+├── cmd
+│   └── main
+│       └── main.go
+├── pkg
+│   ├── config
+│   │   └── app.go
+│   ├── controllers
+│   │   └── book-controller.go
+│   ├── models
+│   │   └── book.go
+│   ├── routes
+│   │   └── bookstore-routes.go
+│   └── utils
+│       └── utils.go
+├── go.mod
+└── go.sum
 ```
